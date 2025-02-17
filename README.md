@@ -19,3 +19,6 @@ For the contact page, i coded a functional navbar and instead of using a banner 
 Visitors will find the phone number and email address here. They will also have a chance to fill out a form where they can put their name, email and a comment or concern that they would like to share. This form functions correctly and will not let you send without a valid email.
 The send button also has a hover tag coded in where it will change colors when you hover over it.
 This was a very fun project and i definitly learned alot from it. I hope you enjoy it!
+
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d1bc2c6d-85bc-4548-bdc8-7b06874ae3ce/deploy-status)](https://app.netlify.com/sites/jbreedlove-event-center/deploys)
