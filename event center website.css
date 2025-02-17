@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+  }
+
+  footer{
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+  }
+
+ 
+
+  .banner{
+    width: 100%;
+    height: 500px;
+  }
+  .container{
+    width: 100%;
+    height: 500px;
+    position:relative;
+    display: flex;
+  }
+  
+  header, nav, main, aside, footer {
+    padding: 10px;
+    color: rgb(4, 241, 23);
+  }
+
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+  }
+
+  nav.logo{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  nav.ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  nav li{
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+   padding: 8px;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  main {
+    position: relative;
+    display: flex;
+    flex: 1;
+  }
+
+ 
+  nav li{
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+   padding: 8px;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  main {
+    display: flex;
+    position: relative;
+    flex: 1;
+  }
+  
+
+   /* Responsive design */
+   @media (max-width: 768px) {
+    body {
+      flex-direction: column;
+    }
+  
+    main {
+      flex-direction: column;
+      position: relative;
+      align-items: center;
+    }
+    nav ul li{
+        margin:10px 0;
+    }
+    /* hide the navigation links by default*/
+    nav ul{
+        display:inline-block;
+        flex-direction: column;
+        align-items: center;
+        background-color: #333;
+   }
+  
+  }
